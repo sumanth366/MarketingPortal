@@ -1,0 +1,3 @@
+[submodule "MarketingPortal"]
+	path = MarketingPortal
+	url = https://github.com/sumanth366/MarketingPortal.git
