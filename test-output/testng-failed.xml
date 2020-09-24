@@ -11,11 +11,28 @@
           <include name="GoToNews"/>
         </methods>
       </class> <!-- com.mp.qa.TestCases.ActionAlertsTest -->
+      <class name="com.mp.qa.TestCases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.mp.qa.TestCases.LoginPageTest -->
+      <class name="com.mp.qa.TestCases.NewsPageTest">
+        <methods>
+          <include name="ReadMoreTest"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mp.qa.TestCases.NewsPageTest -->
       <class name="com.mp.qa.TestCases.HomePageTest">
         <methods>
+          <include name="ProfileIconTest"/>
+          <include name="SearchTest"/>
           <include name="tearDown"/>
           <include name="GoToActionALerts"/>
           <include name="setUp"/>
+          <include name="HamburgerBtnTest"/>
         </methods>
       </class> <!-- com.mp.qa.TestCases.HomePageTest -->
     </classes>
